@@ -1,0 +1,248 @@
+/*************************
+*******Header******
+**************************/
+body {
+  padding-top: 100px;
+}
+
+#navbar-nav.a {
+  color: #45aed6;
+  size：20px;
+  -webkit-transition: color 400ms, background-color 400ms;
+  -moz-transition: color 400ms, background-color 400ms;
+  -o-transition: color 400ms, background-color 400ms;
+  transition: color 400ms, background-color 400ms;
+  
+}
+#navbar-nav.a:hover,
+#navbar-nav.a:focus {
+  text-decoration: none;
+  color: #2a95be;
+}
+#navbar-nav.ul.nostyle {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+#navbar-nav.ul.nostyle i {
+  color: #45aed6;
+}
+.navbar-toggle{
+border-radius: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: #424242;
+}
+.navbar-nav>li>a {text-transform: uppercase;font-size: 13px;}
+@-webkit-keyframes scaleIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+#main-nav.navbar-default {
+background: #FFFFFF;
+}
+#main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {background: #F44336;color: #FFFFFF;}
+.navbar.navbar-default {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.navbar.navbar-default .navbar-toggle {
+  margin-top: 32px;
+}
+.navbar.navbar-default .navbar-brand {
+  height: auto;
+  padding: 22px 0px 21px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+color: #FFFFFF;
+ 
+background: transparent;
+}
+.navbar-default .navbar-nav>li>a{
+color: #FFFFFF;
+}
+ 
+#main-nav.navbar-default {
+background: #343434;
+}
+@media only screen and (min-width: 768px) {
+  #main-nav.navbar-default {
+    background: #343434;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.26);
+  }
+  #main-nav.navbar-default .navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 36px;
+  
+}
+  .navbar-default .navbar-nav>li>a {
+	color: #FFFFFF;
+	}
+  #main-nav.navbar-default .navbar-nav > li.active > a,
+
+  #main-nav.navbar-default .navbar-nav > li.open > a,
+  #main-nav.navbar-default .navbar-nav > li:hover > a {
+	color: #fff;
+}
+  #main-nav.navbar-default .dropdown-menu {
+    padding: 0 20px;
+    min-width: 220px;
+    background-color: rgba(26, 28, 40, 0.9);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-clip: inherit;
+  }
+  #main-nav.navbar-default .dropdown-menu > li {
+    border-left: 3px solid transparent;
+    margin-left: -20px;
+    padding-left: 17px;
+    -webit-transition: border-color 400ms;
+    transition: border-color 400ms;
+  }
+  #main-nav.navbar-default .dropdown-menu > li > a { 
+    padding: 15px 0;
+    color:#A8A8A8; 
+  }
+  #main-nav.navbar-default .dropdown-menu > li:first-child > a {
+    border-top: 0;
+  }
+  #main-nav.navbar-default .dropdown-menu > li.active,
+  #main-nav.navbar-default .dropdown-menu > li.open,
+  #main-nav.navbar-default .dropdown-menu > li:hover {
+    border-left-color: #45aed6;
+  }
+  #main-nav.navbar-default .dropdown-menu > li.active > a,
+  #main-nav.navbar-default .dropdown-menu > li.open > a,
+  #main-nav.navbar-default .dropdown-menu > li:hover > a {
+    color: #45aed6;
+    background-color: transparent;
+  }
+}
+.Login_name{
+	margin-top: 39px;
+	color: #ffff00;
+}
+/*download-btn*/
+.download-btn
+{
+	border: solid 3px #fff;
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-size: 17px;
+	letter-spacing: 2px;
+	margin-bottom: 185px;
+	moz-border-radius: 3px;
+	padding: 12px 37px;
+	transition: all 0.5s ease;
+	webkit-border-radius: 3px;
+	margin-top: 20px;
+}
+.download-btn:hover, .download-btn:focus
+{
+	border-color: #FFFFFF;
+	color: #222222;
+	text-decoration: none;
+	background: #fff;
+}
+/*build-btn*/
+.build-btn
+{
+	border: solid 3px #fff;
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-size: 17px;
+	letter-spacing: 2px;
+	margin-bottom: 185px;
+	moz-border-radius: 3px;
+	padding: 12px 37px;
+	transition: all 0.5s ease;
+	webkit-border-radius: 3px;
+	margin-top: 20px;
+}
+.build-btn:hover, .build-btn:focus
+{
+	border-color: #FFFFFF;
+	color: #222222;
+	text-decoration: none;
+	background: #fff;
+}
+/* Logo*/
+.logo {
+	margin: 0px 10px 0px 50px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.logo,
+.logo-section {
+	float: left;
+	padding: 30px 15px 21px;
+}
+.brand {
+	font-size: 23px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.brand a {
+	color: #ffffff;
+}
+.brand a:hover {
+	text-decoration: none;
+}
+/*footer css*/
+.footer{
+	margin-top: 100px;
+	height: 240px;
+	background-color: #272727;
+}
+.footer .col-md-4{
+	padding-top: 50px;
+	text-align: center;
+}
+.footer img{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.footer p{
+	color:#fff;
+	text-align: center;
+}
+.footer .address{
+	padding-top: 20px;
+}
